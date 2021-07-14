@@ -1,0 +1,100 @@
+.buttons{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.addDiv{
+  width: 300px;
+  height: 400px;
+  top: calc(50vh - 200px);
+  left: calc(50% - 150px);
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+.delDiv{
+  width: 300px;
+  height: 120px;
+  top: calc(50vh - 60px);
+  left: calc(50% - 150px);
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+.oneDiv{
+  width: 300px;
+  height: 120px;
+  top: calc(50vh - 60px);
+  left: calc(50% - 150px);
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+.oneDrink{
+  position: absolute;
+  top: 500px;
+  left: calc(50% - 150px);
+}
+.recipeDiv{
+  width: 300px;
+  height: max-content;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+.allDiv{
+  width: 300px;
+  height: max-content;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  top: calc(50vh - 60px);
+  left: calc(50% - 150px);
+  position: absolute;
+}
+.p{
+  text-align: center;
+}
+.textInput{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.radioDiv{
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.radioInput{
+  margin-left: 30px;
+  cursor: pointer;
+}
+.classLabel{
+  margin-right: 30px;
+  cursor: pointer;
+
+}
+.textareaDiv{
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recipe{
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+}
+.displayBlock{
+  display: block;
+}
